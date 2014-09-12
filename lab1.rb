@@ -4,7 +4,7 @@ puts "what was your bill"
 number = gets.chomp.to_f 
 
 puts "was the service good, great, or bad "
-service = gets.chomp
+	service = gets.chomp
 
 if service == "good"
 	 tip = number*0.15

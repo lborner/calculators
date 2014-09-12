@@ -4,7 +4,7 @@ puts "what was your total purchase amount?"
 number = gets.chomp.to_f 
 
 puts "what state are you in, CT or NY "
-service = gets.chomp
+	service = gets.chomp
 
 if service == "CT"
 	 tax = number*1.0635

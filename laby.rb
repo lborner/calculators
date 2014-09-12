@@ -1,3 +1,8 @@
+puts "Do you want to find the area of a rectangle or triangle" 
+
+if request = rectangle
+
+request = gets.chomp
 
 puts "What is the width of the rectangle"
 
@@ -10,4 +15,6 @@ totalarea = number*service
 
 
 puts "The area of the rectangle is " + totalarea.to_s
- 	
+end
+
+if request = triangle	
